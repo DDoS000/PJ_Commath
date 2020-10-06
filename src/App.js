@@ -10,7 +10,7 @@ function App() {
           src="https://wichit2s.gitlab.io/assets/images/paul_profile_96x96.png"
           alt="new"
         />
-        <h1>Hello Teacher Wichit.</h1>
+        <h1>Hello, Teacher Wichit.</h1>
         <h2>Good morning.</h2>
         <h3>I’m Tan boi.</h3>
       </header>
