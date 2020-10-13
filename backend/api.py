@@ -1,7 +1,27 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+#broker_cfg = {'AMQP_URI': "amqp://guest:guest@rabbitmq"}
+origins = [
+    "*",
+    "http://localhost",
+    "http://localhost:80",
+    "http://localhost:8000",
+    "http://localhost:8000/b2s",
+    "http://localhost:8000/elimination",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.get("/b2s/{b}")
 def getbit2s(b:str):
