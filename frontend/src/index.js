@@ -33,8 +33,8 @@ const hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/commath" render={(props) => <AdminLayout {...props} />} />
-      <Redirect to="/commath/B1" />
+      <Route path="/Pj_Commath" render={(props) => <AdminLayout {...props} />} />
+      <Redirect to="/Pj_Commath/B1" />
     </Switch>
   </Router>,
   document.getElementById("root")
