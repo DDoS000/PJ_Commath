@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Nav } from "reactstrap";
-// javascript plugin used to create scrollbars on windows
+
 import PerfectScrollbar from "perfect-scrollbar";
 var ps;
 
@@ -11,7 +11,7 @@ class Sidebar extends React.Component {
     this.activeRoute.bind(this);
     this.sidebar = React.createRef();
   }
-  // verifies if routeName is the one active (in browser input)
+
   activeRoute(routeName) {
     return this.props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
   }

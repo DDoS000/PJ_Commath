@@ -180,9 +180,9 @@
     margin: 0 !important;
 }
 
-//fix bug for the select items in btn-group
+
 .btn-group.select{
-    // overflow: hidden;
+
 }
 .btn-group.select.open{
     overflow: visible;
@@ -234,8 +234,7 @@
     left: 30px !important;
     right: auto;
 }
-//  the style for opening dropdowns on mobile devices; for the desktop version check the _responsive.scss file
-//  code from _responsive.scss
+
 
 @media screen and (min-width: 768px){
     .navbar-form {
@@ -290,7 +289,6 @@
         }
     }
 
-// no dragging the others navs in page
     body > .navbar-collapse.collapse{
         display: none !important;
     }

@@ -23,7 +23,7 @@ body{
     @include transition($general-transition-time, $transition-ease);
 }
 
-//transition for dropdown caret
+
 .dropdown-toggle:after,
 .bootstrap-switch-label:before,
 .caret{
@@ -114,7 +114,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   }
 }
 
-// badge color
+
 
 .badge{
   &.badge-default{

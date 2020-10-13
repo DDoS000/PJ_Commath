@@ -1,6 +1,5 @@
-// import Icons from "views/Icons.js";
-// import UserPage from "views/User.js";
-import Basic_Computing from "views/B1.js";
+import UserPage from "views/User.js";
+import B1 from "views/B1.js";
 import B2 from "views/B2.js";
 import B3 from "views/B3.js";
 import B4 from "views/B4.js";
@@ -12,7 +11,7 @@ var routes = [
     path: "/B1",
     name: "1.Basic Computing",
     icon: "nc-icon nc-simple-add",
-    component: Basic_Computing,
+    component: B1,
     layout: "/Pj_Commath",
   },
   {
@@ -50,19 +49,12 @@ var routes = [
     component: B6,
     layout: "/Pj_Commath",
   },
-  // {
-  //   path: "/icons",
-  //   name: "Icons",
-  //   icon: "nc-icon nc-diamond",
-  //   component: Icons,
-  //   layout: "/commath",
-  // },
-  // {
-  //   path: "/user-page",
-  //   name: "User Profile",
-  //   icon: "nc-icon nc-single-02",
-  //   component: UserPage,
-  //   layout: "/commath",
-  // },
+  {
+    path: "/Studen-page",
+    name: "Studen Profile",
+    icon: "nc-icon nc-single-02",
+    component: UserPage,
+    layout: "/Pj_Commath",
+  },
 ];
 export default routes;

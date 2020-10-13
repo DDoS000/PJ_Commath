@@ -1,8 +1,33 @@
 import React from "react";
-import { Card, CardBody, Row, Col } from "reactstrap";
+import {
+  CardTitle,
+  CardText,
+  Row,
+  Col,
+  Button,
+  Card,
+  CardBody,
+  Input,
+  InputGroup,
+  InputGroupAddon,
+  InputGroupText,
+} from "reactstrap";
+import { getB2s } from "../functions/function";
+import { useNavigate } from "react-router-dom";
 
-class Basic_Computing extends React.Component {
-    render() {
+
+// function B2s() {
+//   const navigate = useNavigate();
+//   const [bit2string, setBit2string] = useState();
+//   const [result, setResult] = useState("");
+//   const generate = () => {
+//     getB2s(bit2string).then((res) => {
+//       setResult(res);
+//     });
+//   };
+
+
+function B1() {
         return (
             <>
               <div className="content">
@@ -23,7 +48,6 @@ class Basic_Computing extends React.Component {
               </div>
             </>
           );
-    }
-}
+};
 
-export default Basic_Computing;
+export default B1;
