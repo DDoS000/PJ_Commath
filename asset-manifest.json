@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/Pj_Commath/static/css/main.d4b874e6.chunk.css",
-    "main.js": "/Pj_Commath/static/js/main.3ca2ec50.chunk.js",
-    "main.js.map": "/Pj_Commath/static/js/main.3ca2ec50.chunk.js.map",
+    "main.js": "/Pj_Commath/static/js/main.640f6405.chunk.js",
+    "main.js.map": "/Pj_Commath/static/js/main.640f6405.chunk.js.map",
     "runtime-main.js": "/Pj_Commath/static/js/runtime-main.c8668987.js",
     "runtime-main.js.map": "/Pj_Commath/static/js/runtime-main.c8668987.js.map",
-    "static/css/2.23423af4.chunk.css": "/Pj_Commath/static/css/2.23423af4.chunk.css",
-    "static/js/2.0d2613af.chunk.js": "/Pj_Commath/static/js/2.0d2613af.chunk.js",
-    "static/js/2.0d2613af.chunk.js.map": "/Pj_Commath/static/js/2.0d2613af.chunk.js.map",
+    "static/css/2.a6ef3603.chunk.css": "/Pj_Commath/static/css/2.a6ef3603.chunk.css",
+    "static/js/2.a6a3ebe0.chunk.js": "/Pj_Commath/static/js/2.a6a3ebe0.chunk.js",
+    "static/js/2.a6a3ebe0.chunk.js.map": "/Pj_Commath/static/js/2.a6a3ebe0.chunk.js.map",
     "index.html": "/Pj_Commath/index.html",
-    "precache-manifest.47786fb13fc17ae968093b06da6cde03.js": "/Pj_Commath/precache-manifest.47786fb13fc17ae968093b06da6cde03.js",
+    "precache-manifest.11ca5706702800a0cfba5745122764ef.js": "/Pj_Commath/precache-manifest.11ca5706702800a0cfba5745122764ef.js",
     "service-worker.js": "/Pj_Commath/service-worker.js",
-    "static/css/2.23423af4.chunk.css.map": "/Pj_Commath/static/css/2.23423af4.chunk.css.map",
+    "static/css/2.a6ef3603.chunk.css.map": "/Pj_Commath/static/css/2.a6ef3603.chunk.css.map",
     "static/css/main.d4b874e6.chunk.css.map": "/Pj_Commath/static/css/main.d4b874e6.chunk.css.map",
-    "static/js/2.0d2613af.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.0d2613af.chunk.js.LICENSE.txt",
+    "static/js/2.a6a3ebe0.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.a6a3ebe0.chunk.js.LICENSE.txt",
     "static/media/damir-bosnjak.jpg": "/Pj_Commath/static/media/damir-bosnjak.a6f24e7d.jpg",
-    "static/media/mike.jpg": "/Pj_Commath/static/media/mike.aab414f7.jpg",
     "static/media/paper-dashboard.scss?v=1.2.0": "/Pj_Commath/static/media/nucleo-icons.f32ed5ad.eot",
-    "static/media/paul_profile_96x96.png": "/Pj_Commath/static/media/paul_profile_96x96.89a77d10.png"
+    "static/media/paul_profile_96x96.png": "/Pj_Commath/static/media/paul_profile_96x96.89a77d10.png",
+    "static/media/tan.jpg": "/Pj_Commath/static/media/tan.19cb98c2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8668987.js",
-    "static/css/2.23423af4.chunk.css",
-    "static/js/2.0d2613af.chunk.js",
+    "static/css/2.a6ef3603.chunk.css",
+    "static/js/2.a6a3ebe0.chunk.js",
     "static/css/main.d4b874e6.chunk.css",
-    "static/js/main.3ca2ec50.chunk.js"
+    "static/js/main.640f6405.chunk.js"
   ]
 }
