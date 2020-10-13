@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/Pj_Commath/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Pj_Commath/static/js/main.60cbe154.chunk.js",
-    "main.js.map": "/Pj_Commath/static/js/main.60cbe154.chunk.js.map",
-    "runtime-main.js": "/Pj_Commath/static/js/runtime-main.c8668987.js",
-    "runtime-main.js.map": "/Pj_Commath/static/js/runtime-main.c8668987.js.map",
-    "static/js/2.dcdddb1b.chunk.js": "/Pj_Commath/static/js/2.dcdddb1b.chunk.js",
-    "static/js/2.dcdddb1b.chunk.js.map": "/Pj_Commath/static/js/2.dcdddb1b.chunk.js.map",
+    "main.css": "/Pj_Commath/static/css/main.55e91208.chunk.css",
+    "main.js": "/Pj_Commath/static/js/main.99010298.chunk.js",
+    "main.js.map": "/Pj_Commath/static/js/main.99010298.chunk.js.map",
+    "runtime-main.js": "/Pj_Commath/static/js/runtime-main.742cf416.js",
+    "runtime-main.js.map": "/Pj_Commath/static/js/runtime-main.742cf416.js.map",
+    "static/css/2.8462b5f9.chunk.css": "/Pj_Commath/static/css/2.8462b5f9.chunk.css",
+    "static/js/2.9fa9717d.chunk.js": "/Pj_Commath/static/js/2.9fa9717d.chunk.js",
+    "static/js/2.9fa9717d.chunk.js.map": "/Pj_Commath/static/js/2.9fa9717d.chunk.js.map",
     "index.html": "/Pj_Commath/index.html",
-    "precache-manifest.2561096ce101a838acf515101c87be88.js": "/Pj_Commath/precache-manifest.2561096ce101a838acf515101c87be88.js",
+    "precache-manifest.e8076eefccb4b16b1b57eed6a71bf0a5.js": "/Pj_Commath/precache-manifest.e8076eefccb4b16b1b57eed6a71bf0a5.js",
     "service-worker.js": "/Pj_Commath/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Pj_Commath/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.dcdddb1b.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.dcdddb1b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Pj_Commath/static/media/logo.5d5d9eef.svg"
+    "static/css/2.8462b5f9.chunk.css.map": "/Pj_Commath/static/css/2.8462b5f9.chunk.css.map",
+    "static/css/main.55e91208.chunk.css.map": "/Pj_Commath/static/css/main.55e91208.chunk.css.map",
+    "static/js/2.9fa9717d.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.9fa9717d.chunk.js.LICENSE.txt",
+    "static/js/main.99010298.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/main.99010298.chunk.js.LICENSE.txt",
+    "static/media/paper-dashboard.scss?v=1.2.0": "/Pj_Commath/static/media/nucleo-icons.f32ed5ad.eot",
+    "static/media/paul_profile_96x96.png": "/Pj_Commath/static/media/paul_profile_96x96.89a77d10.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8668987.js",
-    "static/js/2.dcdddb1b.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.60cbe154.chunk.js"
+    "static/js/runtime-main.742cf416.js",
+    "static/css/2.8462b5f9.chunk.css",
+    "static/js/2.9fa9717d.chunk.js",
+    "static/css/main.55e91208.chunk.css",
+    "static/js/main.99010298.chunk.js"
   ]
 }
