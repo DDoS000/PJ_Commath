@@ -23,7 +23,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-	"predeploy": "yarn run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
