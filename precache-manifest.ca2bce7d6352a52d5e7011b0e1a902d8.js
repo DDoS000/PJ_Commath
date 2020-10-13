@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e50c116b150fe169a08f36d1958bc36",
+    "revision": "2257275ca7364b33006dd813f6b68b09",
     "url": "/Pj_Commath/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pj_Commath/static/css/2.23423af4.chunk.css"
   },
   {
-    "revision": "0d07918930cf8adefa25",
+    "revision": "2c9f68682f210115c600",
     "url": "/Pj_Commath/static/css/main.ce0d1eed.chunk.css"
   },
   {
@@ -20,12 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pj_Commath/static/js/2.514d473e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d07918930cf8adefa25",
-    "url": "/Pj_Commath/static/js/main.3ccc6e2c.chunk.js"
-  },
-  {
-    "revision": "bdb98474275f6edd5b629e0abbc64fc0",
-    "url": "/Pj_Commath/static/js/main.3ccc6e2c.chunk.js.LICENSE.txt"
+    "revision": "2c9f68682f210115c600",
+    "url": "/Pj_Commath/static/js/main.37ad74b2.chunk.js"
   },
   {
     "revision": "aebac72de20a02e54411",
