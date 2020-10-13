@@ -1,7 +1,6 @@
 {
-  "name": "paper-dashboard-react",
-  "version": "1.2.0",
-  "private": true,
+  "name": "pj_commath",
+  "version": "1.3.0",
   "homepage": "https://DDoS000.github.io/Pj_Commath/",
   "dependencies": {
     "bootstrap": "4.5.0",
