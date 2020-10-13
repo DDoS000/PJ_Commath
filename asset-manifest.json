@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/Pj_Commath/static/css/main.4938535c.chunk.css",
-    "main.js": "/Pj_Commath/static/js/main.62d689a4.chunk.js",
-    "main.js.map": "/Pj_Commath/static/js/main.62d689a4.chunk.js.map",
+    "main.css": "/Pj_Commath/static/css/main.d4b874e6.chunk.css",
+    "main.js": "/Pj_Commath/static/js/main.3ca2ec50.chunk.js",
+    "main.js.map": "/Pj_Commath/static/js/main.3ca2ec50.chunk.js.map",
     "runtime-main.js": "/Pj_Commath/static/js/runtime-main.c8668987.js",
     "runtime-main.js.map": "/Pj_Commath/static/js/runtime-main.c8668987.js.map",
     "static/css/2.23423af4.chunk.css": "/Pj_Commath/static/css/2.23423af4.chunk.css",
-    "static/js/2.1d3828bb.chunk.js": "/Pj_Commath/static/js/2.1d3828bb.chunk.js",
-    "static/js/2.1d3828bb.chunk.js.map": "/Pj_Commath/static/js/2.1d3828bb.chunk.js.map",
+    "static/js/2.0d2613af.chunk.js": "/Pj_Commath/static/js/2.0d2613af.chunk.js",
+    "static/js/2.0d2613af.chunk.js.map": "/Pj_Commath/static/js/2.0d2613af.chunk.js.map",
     "index.html": "/Pj_Commath/index.html",
-    "precache-manifest.067d34394322401c5ee7f860b71b20a7.js": "/Pj_Commath/precache-manifest.067d34394322401c5ee7f860b71b20a7.js",
+    "precache-manifest.47786fb13fc17ae968093b06da6cde03.js": "/Pj_Commath/precache-manifest.47786fb13fc17ae968093b06da6cde03.js",
     "service-worker.js": "/Pj_Commath/service-worker.js",
     "static/css/2.23423af4.chunk.css.map": "/Pj_Commath/static/css/2.23423af4.chunk.css.map",
-    "static/css/main.4938535c.chunk.css.map": "/Pj_Commath/static/css/main.4938535c.chunk.css.map",
-    "static/js/2.1d3828bb.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.1d3828bb.chunk.js.LICENSE.txt",
+    "static/css/main.d4b874e6.chunk.css.map": "/Pj_Commath/static/css/main.d4b874e6.chunk.css.map",
+    "static/js/2.0d2613af.chunk.js.LICENSE.txt": "/Pj_Commath/static/js/2.0d2613af.chunk.js.LICENSE.txt",
+    "static/media/damir-bosnjak.jpg": "/Pj_Commath/static/media/damir-bosnjak.a6f24e7d.jpg",
+    "static/media/mike.jpg": "/Pj_Commath/static/media/mike.aab414f7.jpg",
     "static/media/paper-dashboard.scss?v=1.2.0": "/Pj_Commath/static/media/nucleo-icons.f32ed5ad.eot",
     "static/media/paul_profile_96x96.png": "/Pj_Commath/static/media/paul_profile_96x96.89a77d10.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c8668987.js",
     "static/css/2.23423af4.chunk.css",
-    "static/js/2.1d3828bb.chunk.js",
-    "static/css/main.4938535c.chunk.css",
-    "static/js/main.62d689a4.chunk.js"
+    "static/js/2.0d2613af.chunk.js",
+    "static/css/main.d4b874e6.chunk.css",
+    "static/js/main.3ca2ec50.chunk.js"
   ]
 }

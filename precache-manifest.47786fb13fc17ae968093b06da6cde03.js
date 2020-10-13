@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed2a86daf239931959e62889c6babd85",
+    "revision": "42c7bf15a85e1d13ddcaa062c562d6b4",
     "url": "/Pj_Commath/index.html"
   },
   {
-    "revision": "c8939c754356164bf9c7",
+    "revision": "8271e238ae6e0df4168f",
     "url": "/Pj_Commath/static/css/2.23423af4.chunk.css"
   },
   {
-    "revision": "00eb305bf25ad6137a3d",
-    "url": "/Pj_Commath/static/css/main.4938535c.chunk.css"
+    "revision": "6572a151df89063e2093",
+    "url": "/Pj_Commath/static/css/main.d4b874e6.chunk.css"
   },
   {
-    "revision": "c8939c754356164bf9c7",
-    "url": "/Pj_Commath/static/js/2.1d3828bb.chunk.js"
+    "revision": "8271e238ae6e0df4168f",
+    "url": "/Pj_Commath/static/js/2.0d2613af.chunk.js"
   },
   {
     "revision": "1478a290b28ee316b2474ba567bc6090",
-    "url": "/Pj_Commath/static/js/2.1d3828bb.chunk.js.LICENSE.txt"
+    "url": "/Pj_Commath/static/js/2.0d2613af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00eb305bf25ad6137a3d",
-    "url": "/Pj_Commath/static/js/main.62d689a4.chunk.js"
+    "revision": "6572a151df89063e2093",
+    "url": "/Pj_Commath/static/js/main.3ca2ec50.chunk.js"
   },
   {
     "revision": "aebac72de20a02e54411",
     "url": "/Pj_Commath/static/js/runtime-main.c8668987.js"
+  },
+  {
+    "revision": "a6f24e7dd5470a8bd2f48ebb53dbe8d5",
+    "url": "/Pj_Commath/static/media/damir-bosnjak.a6f24e7d.jpg"
+  },
+  {
+    "revision": "aab414f7b69d0d4ad897e75e735f240a",
+    "url": "/Pj_Commath/static/media/mike.aab414f7.jpg"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
