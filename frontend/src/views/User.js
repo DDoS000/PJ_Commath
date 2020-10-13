@@ -45,9 +45,9 @@ class User extends React.Component {
                   </div>
                   <p className="description text-center">
                     "ฉันคิดว่า Bug มันคือความผูกพัน <br />
-                     คิดส่า Bug แท้ ต้องเจอกับมันช่วง Runtime<br />
-                     ยื่งเนิ่นนาน นานไปเท่าไหร่ Debug ยิ่งมีค่า<br />
-                     ที่ฉันต้องรู้ ที่เคยฝัน Bug ที่ฉัยเคยเข้าใจ"
+                     คิดว่า Bug แท้ ต้องเจอกับมันช่วง Runtime<br />
+                     ยิ่งเนิ่นนาน นานไปเท่าไหร่ Debug ยิ่งมีค่า<br />
+                     ที่ฉันรู้ ที่เคยฝัน Bug ที่ฉัยเคยเข้าใจ"
                   </p>
                 </CardBody>
                 <CardFooter>
@@ -87,7 +87,7 @@ class User extends React.Component {
                     <h5>React js</h5>
                     <ProgressBar striped variant="success" now={40} /><br></br>
                     <h5>Fast Api</h5>
-                    <ProgressBar striped variant="info" now={20} /><br></br>
+                    <ProgressBar striped variant="info" now={80} /><br></br>
                     <h5>Copy And Paste</h5>
                     <ProgressBar striped variant="warning" now={60} />
                   </div>
