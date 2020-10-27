@@ -85,11 +85,11 @@ class User extends React.Component {
                 <CardBody>
                   <div>
                     <h5>React js</h5>
-                    <ProgressBar striped variant="success" now={40} /><br></br>
+                    <ProgressBar striped variant="success" animated now={65} /><br></br>
                     <h5>Fast Api</h5>
-                    <ProgressBar striped variant="info" now={80} /><br></br>
+                    <ProgressBar striped variant="info" animated now={80} /><br></br>
                     <h5>Copy And Paste</h5>
-                    <ProgressBar striped variant="warning" now={60} />
+                    <ProgressBar striped variant="warning" animated now={40} />
                   </div>
                 </CardBody>
               </Card>

@@ -2,9 +2,9 @@ import axios from "axios";
 
 const apiHost = "http://127.0.0.1:8000";
 
-export const getB2s = (b2s) => {
+export const getB2S = (b2s) => {
     return axios
-        .post(apiHost + `/b2s/`, b2s)
+        .get(apiHost + `/b2s/${b2s}`)
         .then(response => {
             console.log(response.data);
             return response.data;

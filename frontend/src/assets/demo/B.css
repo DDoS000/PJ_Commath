@@ -1,0 +1,12 @@
+#card #cardbody {
+  /* height: 500px; */
+  box-shadow: black;
+}
+
+.col {
+  margin: 10px;
+}
+
+input {
+  width: 60px;
+}
