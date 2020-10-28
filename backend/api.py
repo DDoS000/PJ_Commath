@@ -31,11 +31,16 @@ app = FastAPI()
 #broker_cfg = {'AMQP_URI': "amqp://guest:guest@rabbitmq"}
 origins = [
     "*",
-    "http://localhost",
-    "http://localhost:80",
-    "http://localhost:8000",
-    "http://localhost:8000/b2s",
-    "http://localhost:8000/elimination",
+    "http://0.0.0.0",
+    "http://0.0.0.0:80",
+    "http://0.0.0.0:8000",
+    "http://0.0.0.0:8000/b2s",
+    "http://0.0.0.0:8000/elimination",
+    "http://0.0.0.0:8000/interpolation",
+    "http://0.0.0.0:8000/differentiation",
+    "http://0.0.0.0:8000/integration",
+    "http://0.0.0.0:8000/root-finding"
+
 ]
 
 app.add_middleware(

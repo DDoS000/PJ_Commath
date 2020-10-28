@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const apiHost = "http://127.0.0.1:8000";
-const apiHost = "http://128.199.113.206:8000";
+const apiHost = "https://tan.love-universitys.tk";
 
 export const getB2S = (b2s) => {
     return axios
