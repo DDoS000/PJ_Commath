@@ -25,9 +25,8 @@ class rootFinding(BaseModel):
     b:float
     dx:float
     
-    
 
-app = FastAPI() # FlaskApp()
+app = FastAPI()
 
 #broker_cfg = {'AMQP_URI': "amqp://guest:guest@rabbitmq"}
 origins = [
@@ -52,17 +51,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/b2s/{text}")
-def bit2int(text:str):
-    s = int(text[0])
-    e = int(text[1:9], 2)
-    f = [ int(x) for x in text[9:]]
+@app.get("/")
+def read_root():
+    return {"API 61114440735 ศุภมงคล โคตะสิทธิ์"}
+
+@app.get("/b2s/{b}")
+def bit2int(b:str):
+    s = int(b[0])
+    e = int(b[1:9], 2)
+    f = [ int(x) for x in b[9:] ]
     x = 1 + sum([ int(f[i])*2**(-(i+1)) for i in range(len(f)) ])
     result = (-1)**s * 2**(e-127) * x 
+    print(result)
     return result
 
 @app.post("/elimination")
-def api(data:eliminate):
+def elimination(data:eliminate):
     lam = int(data.A[1][0]) / int(data.A[0][0])
     data.A[1] = [ int(x)-lam*int(y) for x,y in zip(data.A[1],data.A[0]) ]
     data.b[1] = int(data.b[1]) - lam*int(data.b[0])
@@ -78,14 +82,11 @@ def api(data:eliminate):
     x2 = int(data.b[2])/int(data.A[2][2])
     x1 = (int(data.b[1]) - int(data.A[1][2])*x2)/int(data.A[1][1])
     x0 = (int(data.b[0]) - int(data.A[0][1])*x1 - int(data.A[0][2])*x2)/int(data.A[0][0])
-
     result = [x0,x1,x2]
     return result
 
-
-
 @app.post("/interpolation")
-def api(data:interpolation):
+def interpolations(data:interpolation):
     def Li(i, x, xi, yi):
         L = 1
         for j in range(len(xi)):
@@ -99,7 +100,7 @@ def api(data:interpolation):
 
 
 @app.post("/differentiation")
-def api(data:differentiation):
+def differentiations(data:differentiation):
     def g(h):
         cda = {
             0.64: 0.380610   ,
@@ -114,28 +115,22 @@ def api(data:differentiation):
             0.00125: 1.28      ,
         }
         return cda[h]
-
     def richex(h, p):
         return ((2**p)* g(h/2)- g(h))/(2**p - 1)
-    
     return richex(float(data.h),int(data.p))
 
 @app.post("/integration")
-def api(data:integration):
+def integrations(data:integration):
     def f(x): return 3*x**2 + 9*x + 2
     def simpson(f, a, b):
         n = 4
         x0 = a
         h = (b-a)/n
         return (f(x0+0*h) + 4*f(x0+1*h) + 2*f(x0+2*h) + 4*f(x0+3*h) + f(x0+4*h))*h/3
-    
     return simpson(f, int(data.a), int(data.b))
  
-
-
-
 @app.post("/root-finding")
-def api(data:rootFinding):
+def rootFindings(data:rootFinding):
     def f(x):
         return x**3 - 10.0*x**2 + 5.0
 
@@ -149,3 +144,4 @@ def api(data:rootFinding):
 
         return "("+str(x1)+", "+str(x2)+")"
     return rootsearch(f,float(data.a),float(data.b),float(data.dx))
+    
