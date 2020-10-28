@@ -11,6 +11,7 @@ python3 -m pip install -r requirements.txt
 ```sh
 uvicorn api:app 
 uvicorn api:app --reload
+uvicorn api:app --host 0.0.0.0 --port 8000
 ```
 
 ## code

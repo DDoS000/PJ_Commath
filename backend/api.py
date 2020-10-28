@@ -46,6 +46,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {"API 61114440735 ศุภมงคล โคตะสิทธิ์"}
+
 @app.get("/b2s/{b}")
 def bit2int(b:str):
     s = int(b[0])
