@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pj_Commath/static/css/main.a94900d2.chunk.css",
-    "main.js": "/Pj_Commath/static/js/main.aa2d6539.chunk.js",
-    "main.js.map": "/Pj_Commath/static/js/main.aa2d6539.chunk.js.map",
+    "main.js": "/Pj_Commath/static/js/main.4c76e2fe.chunk.js",
+    "main.js.map": "/Pj_Commath/static/js/main.4c76e2fe.chunk.js.map",
     "runtime-main.js": "/Pj_Commath/static/js/runtime-main.c8668987.js",
     "runtime-main.js.map": "/Pj_Commath/static/js/runtime-main.c8668987.js.map",
     "static/css/2.a6ef3603.chunk.css": "/Pj_Commath/static/css/2.a6ef3603.chunk.css",
     "static/js/2.7a1d266d.chunk.js": "/Pj_Commath/static/js/2.7a1d266d.chunk.js",
     "static/js/2.7a1d266d.chunk.js.map": "/Pj_Commath/static/js/2.7a1d266d.chunk.js.map",
     "index.html": "/Pj_Commath/index.html",
-    "precache-manifest.eeeb8ba080bf5ff316e41b0309c55204.js": "/Pj_Commath/precache-manifest.eeeb8ba080bf5ff316e41b0309c55204.js",
+    "precache-manifest.f061eb31d8900159bda886152b287a9b.js": "/Pj_Commath/precache-manifest.f061eb31d8900159bda886152b287a9b.js",
     "service-worker.js": "/Pj_Commath/service-worker.js",
     "static/css/2.a6ef3603.chunk.css.map": "/Pj_Commath/static/css/2.a6ef3603.chunk.css.map",
     "static/css/main.a94900d2.chunk.css.map": "/Pj_Commath/static/css/main.a94900d2.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.a6ef3603.chunk.css",
     "static/js/2.7a1d266d.chunk.js",
     "static/css/main.a94900d2.chunk.css",
-    "static/js/main.aa2d6539.chunk.js"
+    "static/js/main.4c76e2fe.chunk.js"
   ]
 }
